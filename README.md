@@ -1,5 +1,5 @@
 
-# 🐧 **Pi-and-Penguin - Exhibition Automation** 🖥️
+# 🐧 **Pi and Penguin - Exhibition Automation** 🖥️
 
 > **An automated exhibition system created for the NAAC visit by the MSc CS (Data Analysis) batch at BVM Holy Cross College, Cherpunkal, managed single-handedly by Alan Cyril Sunny.**
 
