@@ -65,7 +65,7 @@ In addition to the exhibition automation, I used a **Raspberry Pi 4** to create 
    ```
 3. **Run the Python application**:
    ```bash
-   python pi_and_penguin.py
+   python naac.py
    ```
 4. **Run the Java application**:
    - First, navigate to the Java directory (if applicable):
