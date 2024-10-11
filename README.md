@@ -19,15 +19,18 @@ In addition to the exhibition automation, I used a **Raspberry Pi 4** to create 
 
 - **Automated Demos**: Seamlessly demonstrate Linux distributions such as Kali, Ubuntu, Fedora, and Raspberry Pi using SSH automation.
 - **Real-time Progress Tracking**: Monitor the status of each demo through a dynamic progress bar.
-- **Clean and Simple GUI**: Built using **Tkinter**, offering a user-friendly and intuitive interface.
+- **Clean and Simple GUI**: Built using **Tkinter** for Python and **JavaFX** for Java, offering a user-friendly and intuitive interface.
 - **Exhibition Logs**: Real-time logs of demo outputs and any errors, displayed directly in the app.
 - **Educational Focus**: Highlights the data analysis and system automation capabilities of the MSc CS (Data Analysis) batch.
 
 ## 💡 **Key Technologies**
 
-- **Python**: Core programming language for the entire project.
-- **Tkinter**: Used to design the graphical user interface.
-- **paramiko**: SSH library for executing remote commands.
+- **Python**: Core programming language for the automation system.
+- **Java**: Provides additional functionality and is integrated with Maven for build management.
+- **Tkinter**: Used to design the graphical user interface in Python.
+- **JavaFX**: Used for creating a Java-based GUI.
+- **paramiko**: SSH library for executing remote commands in Python.
+- **Maven**: Build automation tool for Java projects.
 - **Linux Distributions**: Demos include Kali Linux, Ubuntu, Fedora, Debian, CentOS, and more.
 - **Raspberry Pi**: Integrated to demonstrate IoT and embedded systems projects, including the retro gaming console using Batocera.
 
@@ -43,6 +46,8 @@ In addition to the exhibition automation, I used a **Raspberry Pi 4** to create 
 ### **Pre-requisites**
 
 - **Python 3.x** installed.
+- **Java JDK** installed for the Java part of the project.
+- **Maven** installed for building the Java application.
 - Install required Python libraries:
   ```bash
   pip install paramiko tkinter
@@ -58,12 +63,25 @@ In addition to the exhibition automation, I used a **Raspberry Pi 4** to create 
    ```bash
    cd pi-and-penguin-exhibition
    ```
-3. **Run the application**:
+3. **Run the Python application**:
    ```bash
    python pi_and_penguin.py
    ```
+4. **Run the Java application**:
+   - First, navigate to the Java directory (if applicable):
+     ```bash
+     cd java-directory
+     ```
+   - Then, use Maven to clean and install the project:
+     ```bash
+     mvn clean install
+     ```
+   - Finally, run the Java application:
+     ```bash
+     mvn exec:java -Dexec.mainClass="com.example.ExhibitionAutomation"
+     ```
 
-4. **Begin the exhibition**: Click on **Start Exhibition** to begin automated demonstrations.
+5. **Begin the exhibition**: Click on **Start Exhibition** in the Python GUI to begin automated demonstrations.
 
 ## ⚙️ **Configuration**
 
@@ -77,6 +95,8 @@ distributions = {
     "Raspberry Pi": {"host": "192.168.1.103", "user": "pi", "password": "raspberry", "command": "pi-demo-command"}
 }
 ```
+
+For Java, configure the SSH connections and commands in the Java application as needed.
 
 ## 👨‍💻 **Contributing**
 
