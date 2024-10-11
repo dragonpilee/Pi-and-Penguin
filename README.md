@@ -1,7 +1,7 @@
 
 # 🐧 **Pi and Penguin - Exhibition Automation** 🖥️
 
-> **An automated exhibition system created for the NAAC visit by the MSc CS (Data Analysis) batch at BVM Holy Cross College, Cherpunkal, managed by Alan Cyril Sunny.**
+> **An automated exhibition system created for the NAAC visit by the MSc CS (Data Analysis) batch at BVM Holy Cross College, Cherpunkal, managed single-handedly by Alan Cyril Sunny.**
 
 ### 📅 **Event:** NAAC Accreditation Visit  
 ### 📍 **Venue:** BVM Holy Cross College, Cherpunkal  
@@ -10,6 +10,10 @@
 ## 📜 **Overview**
 
 This project, **Pi and Penguin - Exhibition Automation**, was specially crafted for the NAAC accreditation visit. It demonstrates various Linux distributions and Raspberry Pi in an automated manner using a graphical interface. The project showcases the technical expertise and project management capabilities of the MSc CS (Data Analysis) batch, with a focus on automation, system integration, and real-time feedback.
+
+## 🎮 **Retro Gaming Console with Raspberry Pi 4**
+
+In addition to the exhibition automation, I used a **Raspberry Pi 4** to create a **retro gaming console** using **Batocera**. This project allows users to enjoy classic games from various consoles in a single, easy-to-use interface. The console supports multiple gaming systems and is a testament to the capabilities of the Raspberry Pi as an entertainment device.
 
 ## 🚀 **Exhibition Features**
 
@@ -25,7 +29,7 @@ This project, **Pi and Penguin - Exhibition Automation**, was specially crafted 
 - **Tkinter**: Used to design the graphical user interface.
 - **paramiko**: SSH library for executing remote commands.
 - **Linux Distributions**: Demos include Kali Linux, Ubuntu, Fedora, Debian, CentOS, and more.
-- **Raspberry Pi**: Integrated to demonstrate IoT and embedded systems projects.
+- **Raspberry Pi**: Integrated to demonstrate IoT and embedded systems projects, including the retro gaming console using Batocera.
 
 ## 🛠️ **How It Works**
 
@@ -48,22 +52,22 @@ This project, **Pi and Penguin - Exhibition Automation**, was specially crafted 
 
 1. **Clone this repository**:
    ```bash
-   git clone https://github.com/your-username/penguin-and-pi-exhibition.git
+   git clone https://github.com/your-username/pi-and-penguin-exhibition.git
    ```
 2. **Navigate to the project directory**:
    ```bash
-   cd penguin-and-pi-exhibition
+   cd pi-and-penguin-exhibition
    ```
 3. **Run the application**:
    ```bash
-   python penguin_and_pi.py
+   python pi_and_penguin.py
    ```
 
 4. **Begin the exhibition**: Click on **Start Exhibition** to begin automated demonstrations.
 
 ## ⚙️ **Configuration**
 
-To add or modify the SSH credentials and commands for each Linux distribution or Raspberry Pi, edit the `distributions` dictionary in the `penguin_and_pi.py` file as shown below:
+To add or modify the SSH credentials and commands for each Linux distribution or Raspberry Pi, edit the `distributions` dictionary in the `pi_and_penguin.py` file as shown below:
 
 ```python
 distributions = {
@@ -84,7 +88,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ---
 
-**Penguin and Pi - Exhibition Automation** stands as a testament to the dedication and technical skills of the MSc CS (Data Analysis) batch, especially **Alan Cyril Sunny**, who single-handedly handled the entire exhibition for the NAAC visit at BVM Holy Cross College, Cherpunkal.
+**Pi and Penguin - Exhibition Automation** stands as a testament to the dedication and technical skills of the MSc CS (Data Analysis) batch, especially **Alan Cyril Sunny**, who single-handedly handled the entire exhibition for the NAAC visit at BVM Holy Cross College, Cherpunkal.
 
 ---
 
