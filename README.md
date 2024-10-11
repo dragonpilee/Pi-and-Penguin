@@ -1,7 +1,7 @@
 
 # 🐧 **Pi and Penguin - Exhibition Automation** 🖥️
 
-> **An automated exhibition system created for the NAAC visit by the MSc CS (Data Analysis) batch at BVM Holy Cross College, Cherpunkal, managed single-handedly by Alan Cyril Sunny.**
+> **An automated exhibition system created for the NAAC visit by Alan Cyril Sunny for BVM Holy Cross College, Cherpunkal.**
 
 ### 📅 **Event:** NAAC Accreditation Visit  
 ### 📍 **Venue:** BVM Holy Cross College, Cherpunkal  
@@ -9,7 +9,7 @@
 
 ## 📜 **Overview**
 
-This project, **Pi and Penguin - Exhibition Automation**, was specially crafted for the NAAC accreditation visit. It demonstrates various Linux distributions and Raspberry Pi in an automated manner using a graphical interface. The project showcases the technical expertise and project management capabilities of the MSc CS (Data Analysis) batch, with a focus on automation, system integration, and real-time feedback.
+This project, **Pi and Penguin - Exhibition Automation**, was specially crafted for the NAAC accreditation visit. It demonstrates various Linux distributions and Raspberry Pi in an automated manner using a graphical interface. The project showcases the technical expertise and project management capabilities of the dev , with a focus on automation, system integration, and real-time feedback.
 
 ## 🎮 **Retro Gaming Console with Raspberry Pi 4**
 
@@ -108,7 +108,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ---
 
-**Pi and Penguin - Exhibition Automation** stands as a testament to the dedication and technical skills of the MSc CS (Data Analysis) batch, especially **Alan Cyril Sunny**, who single-handedly handled the entire exhibition for the NAAC visit at BVM Holy Cross College, Cherpunkal.
+**Pi and Penguin - Exhibition Automation** stands as a testament to the dedication and technical skills of **Alan Cyril Sunny**, who single-handedly handled the entire exhibition for the NAAC visit at BVM Holy Cross College, Cherpunkal.
 
 ---
 
